@@ -1,0 +1,23 @@
+.container {
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .content {
+    p {
+      margin: 0;
+    }
+  }
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+.container:nth-child(odd) {
+  background-color: royalblue;
+}
+.container:nth-child(even) {
+  background-color: salmon;
+}
